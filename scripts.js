@@ -44,5 +44,15 @@ form.onsubmit = (event) => {
 
   }
 
-  console.log(newExpense)
+  //console.log(newExpense)
+  expenseAdd(newExpense)
+}
+
+function expenseAdd(newExpense){
+  try {
+    
+  } catch (error) {
+    alert("Não foi possivel atualizar a lista de despesas")
+    console.log(error)
+  }
 }
